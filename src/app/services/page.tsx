@@ -138,7 +138,7 @@ export default function ServicesPage() {
 
   const handleWhatsAppClick = (serviceTitle: string) => {
     const message = encodeURIComponent(`I'm interested in your service: ${serviceTitle}. Please tell me more.`);
-    const whatsappNumber = "+10000000000"; // Replace with your actual WhatsApp number
+    const whatsappNumber = "+8801763996144"; 
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
   };
 
