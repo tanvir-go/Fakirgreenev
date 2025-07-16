@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Dialog,
   DialogContent,
@@ -24,6 +24,12 @@ export function ContactUsModal({ isOpen, onClose, serviceTitle }: ContactUsModal
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState(serviceTitle || "");
   const [message, setMessage] = useState("");
+  
+  useEffect(() => {
+    if (serviceTitle) {
+      setSubject(serviceTitle);
+    }
+  }, [serviceTitle]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -41,7 +47,7 @@ export function ContactUsModal({ isOpen, onClose, serviceTitle }: ContactUsModal
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[620px] w-[620px] h-[590px]">
+      <DialogContent className="sm:max-w-xl w-full">
         <DialogHeader>
           <DialogTitle>Contact Us</DialogTitle>
           <DialogDescription>
@@ -49,7 +55,7 @@ export function ContactUsModal({ isOpen, onClose, serviceTitle }: ContactUsModal
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="grid gap-4 py-4">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="grid gap-2">
               <Label htmlFor="name">Name</Label>
               <Input
@@ -69,7 +75,7 @@ export function ContactUsModal({ isOpen, onClose, serviceTitle }: ContactUsModal
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="grid gap-2">
               <Label htmlFor="email">Email</Label>
               <Input
