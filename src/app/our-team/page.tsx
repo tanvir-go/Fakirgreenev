@@ -56,12 +56,12 @@ const technicalTeam = [
 ];
 
 const marketingExecutives = [
-  { name: "KAWSER AHMED SUMON", title: "Marketing Executive", location: "Netrokona Sadar, Netrokona", mob: "01915776617", image: "/KAWSER AHMED SUMON.png", hint: "portrait man" },
-  { name: "RUMON MIA", title: "Marketing Executive", location: "Old Bus Stand mor, Sunamganj", mob: "01717470617", image: "/RUMON MIA.png", hint: "portrait man" },
-  { name: "REJAUL KARIM", title: "Marketing Executive", location: "Habigonj", mob: "01761422521", image: "/REJAUL KARIM.png", hint: "portrait man" },
-  { name: "SHOPAN AHMED", title: "Marketing Executive", location: "Mymensingh", mob: "01953231125", image: "/SHOPAN AHMED.png", hint: "portrait man" },
-  { name: "CHANDAN KUMAR DAS", title: "Marketing Executive", location: "Dinajpur Sadar", mob: "01732155481", image: "/CHANDAN KUMAR DAS.png", hint: "portrait man" },
-  { name: "ASADUL HOSSAIN MAHBUB", title: "Marketing Executive", location: "Sylhet Sadar", mob: "01320674585", image: "/ASADUL HOSSAIN MAHBUB.png", hint: "portrait man" }
+  { name: "KAWSER AHMED SUMON", title: "Marketing Executive", location: "Netrokona Sadar, Netrokona", image: "/KAWSER AHMED SUMON.png", hint: "portrait man" },
+  { name: "RUMON MIA", title: "Marketing Executive", location: "Old Bus Stand mor, Sunamganj", image: "/RUMON MIA.png", hint: "portrait man" },
+  { name: "REJAUL KARIM", title: "Marketing Executive", location: "Habigonj", image: "/REJAUL KARIM.png", hint: "portrait man" },
+  { name: "SHOPAN AHMED", title: "Marketing Executive", location: "Mymensingh", image: "/SHOPAN AHMED.png", hint: "portrait man" },
+  { name: "CHANDAN KUMAR DAS", title: "Marketing Executive", location: "Dinajpur Sadar", image: "/CHANDAN KUMAR DAS.png", hint: "portrait man" },
+  { name: "ASADUL HOSSAIN MAHBUB", title: "Marketing Executive", location: "Sylhet Sadar", image: "/ASADUL HOSSAIN MAHBUB.png", hint: "portrait man" }
 ];
 
 export default function OurTeamPage() {
