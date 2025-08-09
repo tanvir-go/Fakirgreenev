@@ -232,7 +232,6 @@ export default function OurTeamPage() {
                           <CardTitle className="text-xl">{member.name}</CardTitle>
                           <CardDescription className="text-gradient font-semibold">{member.title}</CardDescription>
                           <CardDescription className="text-sm text-muted-foreground mt-1">{member.location}</CardDescription>
-                          <CardDescription className="text-sm text-muted-foreground">Mob: {member.mob}</CardDescription>
                         </CardHeader>
                     </Card>
                   </motion.div>
@@ -245,5 +244,3 @@ export default function OurTeamPage() {
     </div>
   );
 }
-
-    
