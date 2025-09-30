@@ -124,10 +124,10 @@ export default function Home() {
                       <Image src="/project2.jpg" data-ai-hint="city EV charging" alt="Urban EV Charging Network" fill className="object-cover group-hover:scale-105 transition-transform" />
                     </div>
                     <CardHeader>
-                        <CardTitle>7 Set System Installation</CardTitle>
+                        <CardTitle>Fakir Green Energy and EV Ltd company's Chairman and Director visited Datai Motor company in China.</CardTitle>
                     </CardHeader>
                     <CardContent className="flex-grow">
-                        <p className="text-muted-foreground">Partnering with Concern Worldwide, we installed a 7-set solar system in the Rohingya Camp, bringing clean energy to the community.</p>
+                        <p className="text-muted-foreground">Fakir Green Energy & EV Ltd Chairman and Director visited Datai Motor in China to explore collaboration and future opportunities in electric mobility.</p>
                     </CardContent>
                 </Card>
               </motion.div>
@@ -137,10 +137,10 @@ export default function Home() {
                       <Image src="/4setsystem.jpg" data-ai-hint="wind turbines field" alt="Coastal Wind Energy Farm" fill className="object-cover group-hover:scale-105 transition-transform" />
                     </div>
                     <CardHeader>
-                        <CardTitle>4 Set System Installation</CardTitle>
+                        <CardTitle>Business Partnership Agreement is signed with Haier Energy Technology Co., China for Solar EPC projects in Bangladesh.</CardTitle>
                     </CardHeader>
                     <CardContent className="flex-grow">
-                        <p className="text-muted-foreground">In partnership with Relief International, we deployed a 4-set solar system in the Rohingya Camp, enhancing access to reliable power.</p>
+                        <p className="text-muted-foreground">Fakir Green Energy & EV Ltd has signed a business partnership agreement with Haier Energy Technology Co., China to develop Solar EPC projects in Bangladesh.</p>
                     </CardContent>
                 </Card>
               </motion.div>
