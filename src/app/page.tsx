@@ -134,7 +134,7 @@ export default function Home() {
               <motion.div variants={itemVariants}>
                 <Card className="overflow-hidden group h-full flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                      <div className="relative aspect-video">
-                      <Image src="https://placehold.co/600x400.png" data-ai-hint="wind turbines field" alt="Coastal Wind Energy Farm" fill className="object-cover group-hover:scale-105 transition-transform" />
+                      <Image src="/4setsystem.jpg" data-ai-hint="wind turbines field" alt="Coastal Wind Energy Farm" fill className="object-cover group-hover:scale-105 transition-transform" />
                     </div>
                     <CardHeader>
                         <CardTitle>4 Set System Installation</CardTitle>
