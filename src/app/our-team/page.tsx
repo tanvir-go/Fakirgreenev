@@ -40,7 +40,6 @@ const boardMembers = [
 ];
 
 const boardAdvisers = [
-    { name: "DR. A. N. M MOMINUL ISLAM MUKUT", title: "Adviser", description: "Renowned professor and renewable energy expert guiding R&D, innovation, and academic collaboration.", image: "/Adviser1.png", hint: "portrait man" },
     { name: "ENGR. KAMRUZZAMAN", title: "Adviser", description: "Brings technical depth and oversight to project implementation and system reliability.", image: "/Adviser2.png", hint: "portrait woman" },
   ];
 
