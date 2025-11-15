@@ -162,7 +162,7 @@ export default function OurTeamPage() {
           >
                <h2 className="text-3xl font-bold font-headline mb-2 flex items-center justify-center gap-4"><Users className="h-8 w-8 text-gradient" /> Our Board of Advisers</h2>
                <p className="text-lg text-muted-foreground mb-12 max-w-3xl mx-auto">Our Board of Advisers provides strategic guidance and industry expertise, helping us to navigate the evolving landscape of renewable energy and sustainable technology.</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center max-w-4xl mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-1 gap-8 justify-center max-w-lg mx-auto">
                 {boardAdvisers.map((member) => (
                   <motion.div key={member.name} variants={itemVariants}>
                     <Card className="text-center p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
